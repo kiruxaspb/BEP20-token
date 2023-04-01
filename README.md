@@ -19,7 +19,7 @@ truffle compile
 ```
 ### Run migrations
 ```bash
-truffle run verify TokenContract --network bsc_testnet
+truffle migrate --network bsc_testnet
 ```
 ### Verify your contract
 
