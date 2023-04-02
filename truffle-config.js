@@ -1,8 +1,8 @@
 const fs = require('fs');
+const HDWalletProvider = require('@truffle/hdwallet-provider');
 require('dotenv').config({ path: '.env'});
 
-const HDWalletProvider = require('@truffle/hdwallet-provider');
-const { INFURA_GOERLI, INFURA_SEPOLIA, PROVIDER_BSC, ETHSKAN } = process.env;
+const { INFURA_GOERLI, INFURA_SEPOLIA, PROVIDER_BSC, PROVIDER_BSC_TESTNET, ETHSKAN } = process.env;
 const MNEMONIC = fs.readFileSync(".secret").toString().trim();
 
 module.exports = {
@@ -17,9 +17,9 @@ module.exports = {
       network_id: 11155111,
       gas: 29000000
     },
-    bsc_testnet: {
+    bsc: {
       provider: () => new HDWalletProvider(MNEMONIC, PROVIDER_BSC),
-      network_id: 97,
+      network_id: 56,
       gas: 29000000
     },
     bsc_testnet: {
