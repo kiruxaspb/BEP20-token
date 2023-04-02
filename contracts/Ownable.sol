@@ -1,5 +1,6 @@
 // SPDX-License-Identifier: MIT
-// Implementation OpenZeppelin Contracts (last updated v4.7.0) (access/Ownable.sol) for BEP20 standart
+// Implementation OpenZeppelin Contracts (last updated v4.7.0) (access/Ownable.sol) for BEP20 standard
+
 pragma solidity ^0.8.0;
 
 import "./Context.sol";
