@@ -1,5 +1,6 @@
 // SPDX-License-Identifier: MIT
-// Implementation OpenZeppelin Contracts (last updated v4.8.0) (token/ERC20/ERC20.sol) for BEP20 standart
+// Implementation OpenZeppelin Contracts (last updated v4.8.0) (token/ERC20/ERC20.sol) for BEP20 standard
+
 import "./Context.sol";
 import "./IBEP20.sol";
 import "./Ownable.sol";
@@ -8,19 +9,15 @@ pragma solidity ^0.8.0;
 
 contract BEP20 is Context, IBEP20, Ownable {  
     mapping (address => uint256) private _balances;
-
     mapping (address => mapping (address => uint256)) private _allowances;
 
     uint256 private _totalSupply;
-
     string private _name;
     string private _symbol;
   
     /**
     * @dev Sets the values for {name} and {symbol}.
     *
-
-
     * All two of these values are immutable: they can only be set once during
     * construction.
     */

@@ -1,4 +1,21 @@
 {
+  "name": "bep20-token",
+  "version": "1.0.0",
+  "description": "ERC20 token implementation for BEP20",
+  "scripts": {
+    "compile": "truffle compile",
+    "deploy": "truffle migrate --network bsc_testnet"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kiruxaspb/BEP20-token.git"
+  },
+  "author": "kiruxaspb, contract us:https://www.linkedin.com/in/xdev/",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kiruxaspb/BEP20-token/issues"
+  },
+  "homepage": "https://github.com/kiruxaspb/BEP20-token#readme",
   "dependencies": {
     "@openzeppelin/contracts": "^4.8.2",
     "@truffle/hdwallet-provider": "^2.1.8",
