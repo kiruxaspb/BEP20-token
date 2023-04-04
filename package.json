@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kiruxaspb/BEP20-token.git"
+    "url": "https://github.com/kiruxaspb/BEP20-token.git"
   },
   "author": "kiruxaspb, contract us:https://www.linkedin.com/in/xdev/",
   "license": "MIT",
